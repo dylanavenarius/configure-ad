@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <a href="https://ibb.co/Twgtv8h"><img src="https://i.ibb.co/51RLM8c/Screen-Shot-2023-10-20-at-1-54-54-PM.png" alt="Screen-Shot-2023-10-20-at-1-54-54-PM" border="0" /></a>
 </p>
 <p>
-To setup your resources in Azure, first create the Domain Controller VM with a Windows Server image application. Next, create the Client VM with a Windows 10 OS and make sure you use the same resource group and Vnet that was created in step one during the creation the the Domain Controller. To ensure both run smoothly, select a VM size of at least 2 vcpus.
+To setup your resources in Azure, first create the Domain Controller VM with a Windows Server image application. Next, create the Client VM with a Windows 10 OS and make sure you use the same resource group and Vnet that was created in step one during the creation the the Domain Controller (you can check the topology with Network Watcher). To ensure both run smoothly, select a VM size of at least 2 vcpus.
 </p>
 <br />
 
