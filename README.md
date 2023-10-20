@@ -36,10 +36,15 @@ To setup your resources in Azure, first create the Domain Controller VM with a W
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://ibb.co/99g0VBY"><img src="https://i.ibb.co/fYFWnZ0/Screen-Shot-2023-10-20-at-2-14-55-PM.png" alt="Screen-Shot-2023-10-20-at-2-14-55-PM" border="0" /></a>
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<a href="https://ibb.co/B2yK6PD"><img src="https://i.ibb.co/RT346Sn/Screen-Shot-2023-10-20-at-2-15-42-PM.png" alt="Screen-Shot-2023-10-20-at-2-15-42-PM" border="0" /></a>
+</p>
+
+<p>
+To ensure connectivity between the Client and Domain Controller, we are going to login to Client-1 with Remote Desktop and ping DC-1s Private IP Address with ping -t (IP Address). We'll notice that when we do this, the request times out. To fix this we need to login to the Domain Controller with Remote Desktop and enable ICMPv4 on the local Windows Firewall. After doing this, check back at Client-1 to see the ping succeed.
 </p>
 <br />
 
