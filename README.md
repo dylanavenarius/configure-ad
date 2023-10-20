@@ -55,3 +55,10 @@ To ensure connectivity between the Client and Domain Controller, we are going to
 To install Active Directory, login to Domain Controller and open the Service Manager Dashboard and navigate to where it says "Add Roles and Features". From here, install Active Directory Domain Services. Next, promote this server to a Domain Controller by setting up a new forest with whatever domain name you choose. Restart and log back into the Domain Controller VM as your newly created domain user.
 </p>
 <br />
+
+<p>
+<a href="https://ibb.co/89dJ0CX"><img src="https://i.ibb.co/njnTbGR/Screen-Shot-2023-10-20-at-2-54-33-PM.png" alt="Screen-Shot-2023-10-20-at-2-54-33-PM" border="0" /></a>
+</p>
+<p>
+In Active Directory Users and Computers (ADUC), create two new Organizational Units "Employees" and "Admins". Create a new employee, and add them to the Domain Admins Security Group. Log out of the Remote Desktop connection to the Domain Controller VM and log back in with the newly created employees credentials.
+</p>
