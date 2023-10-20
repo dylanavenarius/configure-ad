@@ -49,9 +49,9 @@ To ensure connectivity between the Client and Domain Controller, we are going to
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://ibb.co/VSYngs1"><img src="https://i.ibb.co/T8Mj4sf/Screen-Shot-2023-10-20-at-2-39-55-PM.png" alt="Screen-Shot-2023-10-20-at-2-39-55-PM" border="0" /></a>
 </p>
 <p>
-To install Active Directory, login to Domain Controller and open the Service Manager Dashboard and navigate to where it says "Add Roles and Features". From here, install Active Directory Domain Services.
+To install Active Directory, login to Domain Controller and open the Service Manager Dashboard and navigate to where it says "Add Roles and Features". From here, install Active Directory Domain Services. Next, promote this server to a Domain Controller by setting up a new forest with whatever domain name you choose. Restart and log back into the Domain Controller VM as your newly created domain user.
 </p>
 <br />
