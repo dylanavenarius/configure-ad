@@ -44,7 +44,7 @@ To setup your resources in Azure, first create the Domain Controller VM (DC-1) w
 </p>
 
 <p>
-To ensure connectivity between the Client-1 and DC-1, we are going to login to Client-1 with Remote Desktop and ping DC-1s Private IP Address with ping -t (IP Address). We'll notice that when we do this, the request times out. To fix this we need to login to DC-1 with Remote Desktop and enable ICMPv4 on the local Windows Firewall. After doing this, check back at Client-1 to see the ping succeed.
+To ensure connectivity between the Client-1 and DC-1, we are going to log in to to Client-1 with Remote Desktop and ping DC-1s Private IP Address with ping -t (IP Address). We'll notice that when we do this, the request times out. To fix this we need to log in to DC-1 with Remote Desktop and enable ICMPv4 on the local Windows Firewall. After doing this, check back at Client-1 to see the ping succeed.
 </p>
 <br />
 
@@ -52,7 +52,7 @@ To ensure connectivity between the Client-1 and DC-1, we are going to login to C
 <a href="https://ibb.co/VSYngs1"><img src="https://i.ibb.co/T8Mj4sf/Screen-Shot-2023-10-20-at-2-39-55-PM.png" alt="Screen-Shot-2023-10-20-at-2-39-55-PM" border="0" /></a>
 </p>
 <p>
-To install Active Directory, login to DC-1 and open the Service Manager Dashboard and navigate to where it says "Add Roles and Features". From here, install Active Directory Domain Services. Next, promote this server to a Domain Controller by setting up a new forest with whatever domain name you choose. Restart and log back into the DC-1 VM as your newly created domain user.
+To install Active Directory, log in to to DC-1 and open the Service Manager Dashboard and navigate to where it says "Add Roles and Features". From here, install Active Directory Domain Services. Next, promote this server to a Domain Controller by setting up a new forest with whatever domain name you choose. Restart and log back in to the DC-1 VM as your newly created domain user.
 </p>
 <br />
 
