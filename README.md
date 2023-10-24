@@ -44,7 +44,7 @@ To setup your resources in Azure, first create the Domain Controller VM (DC-1) w
 </p>
 
 <p>
-To ensure connectivity between the Client-1 and DC-1, we are going to login to Client-1 with Remote Desktop and ping DC-1s Private IP Address with ping -t (IP Address). We'll notice that when we do this, the request times out. To fix this we need to login to the Domain Controller with Remote Desktop and enable ICMPv4 on the local Windows Firewall. After doing this, check back at Client-1 to see the ping succeed.
+To ensure connectivity between the Client-1 and DC-1, we are going to login to Client-1 with Remote Desktop and ping DC-1s Private IP Address with ping -t (IP Address). We'll notice that when we do this, the request times out. To fix this we need to login to DC-1 with Remote Desktop and enable ICMPv4 on the local Windows Firewall. After doing this, check back at Client-1 to see the ping succeed.
 </p>
 <br />
 
